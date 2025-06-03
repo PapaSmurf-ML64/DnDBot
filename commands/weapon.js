@@ -3,6 +3,7 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
     name: 'weapon',
+    description: 'Look up a D&D weapon and its stats.',
     async execute(interaction) {
         try {
             await interaction.deferReply();

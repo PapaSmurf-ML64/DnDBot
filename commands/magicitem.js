@@ -16,6 +16,7 @@ const rarityColors = {
 
 module.exports = {
     name: 'magicitem',
+    description: 'Look up a D&D magic item and its properties.',
     async execute(interaction) {
         try {
             await interaction.deferReply();

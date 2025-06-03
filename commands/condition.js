@@ -5,6 +5,7 @@ const path = require('path');
 
 module.exports = {
     name: 'condition',
+    description: 'Look up a D&D condition and its effects.',
     async execute(interaction) {
         try {
             await interaction.deferReply();

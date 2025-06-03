@@ -4,6 +4,7 @@ const path = require('path');
 
 module.exports = {
     name: 'background',
+    description: 'Look up a D&D background and its features.',
     async execute(interaction) {
         try {
             await interaction.deferReply();

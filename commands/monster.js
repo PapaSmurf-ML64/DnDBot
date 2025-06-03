@@ -185,6 +185,7 @@ async function generateMonsterImage(monster, outPath) {
 
 module.exports = {
     name: 'monster',
+    description: 'Look up a D&D monster stat block and get a beautiful stat image.',
     async execute(interaction) {
         try {
             await interaction.deferReply();

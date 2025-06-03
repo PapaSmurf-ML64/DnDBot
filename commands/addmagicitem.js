@@ -4,6 +4,7 @@ const path = require('path');
 
 module.exports = {
     name: 'addmagicitem',
+    description: 'Add a new magic item to the database.',
     data: new SlashCommandBuilder()
         .setName('addmagicitem')
         .setDescription('Add a homebrew magic item to the database')

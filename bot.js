@@ -44,13 +44,16 @@ const registrationFiles = fs.readdirSync(commandsPath).filter(file => file.endsW
 const allCommands = [];
 for (const file of registrationFiles) {
     const command = require(`./commands/${file}`);
-    if (command.data) {
+    // If the command exports a description, set it on the builder before toJSON
+    if (command.data && command.description) {
+        command.data.setDescription(command.description);
+        allCommands.push(command.data.toJSON());
+    } else if (command.data) {
         allCommands.push(command.data.toJSON());
     } else if (command instanceof SlashCommandBuilder) {
         allCommands.push(command.toJSON());
     }
 }
-
 
 // Register commands with Discord, hard reload for specific server.
 // const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);

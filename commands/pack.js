@@ -12,6 +12,7 @@ module.exports = {
                 .setRequired(true)
         ),
     name: 'pack',
+    description: 'Look up the contents of an adventuring pack.',
     async execute(interaction) {
         try {
             await interaction.deferReply();

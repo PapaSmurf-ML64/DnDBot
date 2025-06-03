@@ -4,6 +4,7 @@ const path = require('path');
 
 module.exports = {
     name: 'feat',
+    description: 'Look up a D&D feat and its details.',
     async execute(interaction) {
         try {
             await interaction.deferReply();

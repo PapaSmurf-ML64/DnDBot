@@ -3,6 +3,7 @@ const { google } = require('googleapis');
 
 module.exports = {
     name: 'wildmagic',
+    description: 'Roll on the Wild Magic Surge table.',
     async execute(interaction) {
         try {
             await interaction.deferReply();
