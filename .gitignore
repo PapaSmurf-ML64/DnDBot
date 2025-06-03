@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output and cache
+*.log
+*.tmp
+*.swp
+
+# Images and generated statblocks
+/data/images/
+
+# Misc
+*.sublime-workspace
+*.sublime-project
+
+# Ignore package-lock if using yarn
+yarn.lock
+# Ignore yarn.lock if using npm
+package-lock.json
+
+# Ignore test coverage
+coverage/
+
+# Ignore Python cache (if scripts are ever added)
+__pycache__/
+*.pyc

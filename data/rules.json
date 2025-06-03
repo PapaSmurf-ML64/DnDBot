@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Ability Checks",
+    "description": "An ability check tests a character’s or monster’s innate talent and training to overcome a challenge. The DM calls for an ability check when a character attempts an action that has a chance of failure. The outcome is determined by rolling a d20 and adding the relevant ability modifier."
+  },
+  {
+    "name": "Saving Throws",
+    "description": "A saving throw—also called a save—represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. To make a saving throw, roll a d20 and add the appropriate ability modifier."
+  },
+  {
+    "name": "Attack Rolls",
+    "description": "When you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20 and add the appropriate modifiers."
+  },
+  {
+    "name": "Armor Class",
+    "description": "Armor Class (AC) represents how well your character avoids being wounded in battle. Your AC is determined by your armor, shield, and Dexterity modifier."
+  },
+  {
+    "name": "Initiative",
+    "description": "Initiative determines the order of turns during combat. Each participant rolls a d20 and adds their Dexterity modifier."
+  },
+  {
+    "name": "Movement",
+    "description": "On your turn, you can move a distance up to your speed. You can break up your movement before and after actions."
+  },
+  {
+    "name": "Actions in Combat",
+    "description": "During your turn, you can take one action. Common actions include Attack, Cast a Spell, Dash, Disengage, Dodge, Help, Hide, Ready, Search, and Use an Object."
+  },
+  {
+    "name": "Bonus Actions",
+    "description": "Certain features, spells, and abilities allow you to take an additional action on your turn called a bonus action."
+  },
+  {
+    "name": "Reactions",
+    "description": "A reaction is an instant response to a trigger, which can occur on your turn or someone else’s. The most common reaction is an opportunity attack."
+  },
+  {
+    "name": "Hit Points",
+    "description": "Hit points (HP) represent a combination of physical and mental durability, the will to live, and luck. When you take damage, you subtract it from your hit points."
+  },
+  {
+    "name": "Resting",
+    "description": "Resting allows characters to regain hit points and resources. A short rest is at least 1 hour long, while a long rest is at least 8 hours long."
+  },
+  {
+    "name": "Death Saving Throws",
+    "description": "When you are reduced to 0 hit points and not killed outright, you must make death saving throws to determine whether you live or die."
+  },
+  {
+    "name": "Proficiency Bonus",
+    "description": "Your proficiency bonus applies to attack rolls, saving throws, and ability checks for which you are proficient."
+  },
+  {
+    "name": "Spellcasting",
+    "description": "Spellcasting is the ability to cast spells, which are magical effects. Each class has its own rules for spellcasting."
+  },
+  {
+    "name": "Advantage and Disadvantage",
+    "description": "When you have advantage, you roll two d20s and use the higher roll. When you have disadvantage, you roll two d20s and use the lower roll."
+  },
+  {
+    "name": "Cover",
+    "description": "Cover represents obstacles between an attacker and a target. A target behind cover has a bonus to AC and Dexterity saving throws."
+  },
+  {
+    "name": "Conditions",
+    "description": "Conditions alter a creature’s capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster’s attack, or other effect."
+  },
+  {
+    "name": "Exhaustion",
+    "description": "Exhaustion is measured in six levels. Each level adds cumulative effects, and reaching the sixth level results in death."
+  }
+]

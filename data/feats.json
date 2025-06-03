@@ -1,0 +1,1038 @@
+[
+  {
+    "name": "Actor",
+    "description": "Advantage on Charisma (Deception) and (Performance) if trying to pass as another. I can mimic a person's speech or other creature's sounds if I've heard it for at least 1 minute. Wisdom (Insight) vs. Charisma (Deception) to determine the sound is faked. [+1 Charisma]",
+    "descriptionFull": "Skilled at mimicry and dramatics, you gain the following benefits:\\n \\u2022 Increase your Charisma score by 1, to a maximum of 20.\\n \\u2022 You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.\\n \\u2022 You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Alert",
+    "description": "I can't be surprised while I'm conscious. I have a +5 bonus on initiative rolls. Other creatures don't gain advantage on attack rolls against me as a result of being hidden from me.",
+    "descriptionFull": "Always on the lookout for danger, you gain the following benefits:\\n \\u2022 You gain a +5 bonus to initiative.\\n \\u2022 You can't be surprised while you are conscious.\\n \\u2022 Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Athlete",
+    "description": "Standing up from prone uses only 5 ft of movement. Climbing doesn't cost me extra movement. I can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet. [+1 Strength or Dexterity]",
+    "descriptionFull": "You have undergone extensive physical training to gain the following benefits:\\n \\u2022 Increase your Strength or Dexterity score by 1, to a maximum of 20.\\n \\u2022 When you are prone, standing up uses only 5 feet of your movement.\\n \\u2022 Climbing doesn't cost you extra movement.\\n \\u2022 You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Charger",
+    "description": "As a bonus action after taking the Dash action, I can make one melee weapon attack or shove a creature. If I move at least 10 ft in a straight line before this bonus action, I add +5 damage to the attack or increase the distance up to 10 ft for the shove.",
+    "descriptionFull": "When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.\\n   If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Defensive Duelist",
+    "description": "When wielding a finesse weapon with which I am proficient and another creature hits me with a melee attack, I can use my reaction to add my proficiency bonus to my AC for that attack, potentially causing the attack to miss me.",
+    "descriptionFull": "When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.",
+    "prerequisite": "Dexterity 13 or higher",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Dungeon Delver",
+    "description": "I have adv. on Wis (Perception) and Int (Investigation) checks made to detect the presence of secret doors. I have resistance to damage dealt by traps and advantage on saves to avoid or resist traps. Travelling at a fast pace doesn't impose -5 on my passive Perception.",
+    "descriptionFull": "Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:\\n \\u2022 You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors.\\n \\u2022 You have advantage on saving throws made to avoid or resist traps.\\n \\u2022 You have resistance to the damage dealt by traps.\\n \\u2022 Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom (Perception) score.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Durable",
+    "description": "When I roll a hit die to regain hit points, the minimum number of hit points I regain from the roll equals twice my Constitution modifier (minimum of 2). [+1 Constitution]",
+    "descriptionFull": "Hardy and resilient, you gain the following benefits:\\n \\u2022 Increase your Constitution score by 1, to a maximum of 20.\\n \\u2022 When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Elemental Adept",
+    "description": "Choose one of the damage types: acid, cold, fire, lightning, or thunder. Spells I cast ignore resistance to damage from this damage type. For any spell I cast that deals this damage type, I can treat any 1 on a damage die as a 2.",
+    "descriptionFull": "When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.\\n   Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.\\n\\nYou can select this feat multiple times. Each time you do so, you must choose a different damage type.",
+    "prerequisite": "The ability to cast at least one spell",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Healer",
+    "description": "Using a healer's kit to stabilize someone gives them 1 hit point as well. As an action, I can spend one use of a healer's kit to restore 1d6 + 4 + (creature's HD) hit points. After that, the creature can't gain hit points from this feat again until it finishes a short rest.",
+    "descriptionFull": "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:\\n \\u2022 When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.\\n \\u2022 As an action, you can spend one use of a healer's kit to tend to a creature and restore 1d6+4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Heavily Armored",
+    "description": "I gain proficiency with heavy armor. [+1 Strength]",
+    "descriptionFull": "You have trained to master the use of heavy armor, gaining the following benefits:\\n \\u2022 Increase your Strength score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency with heavy armor.",
+    "prerequisite": "Proficiency with medium armor",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Heavy Armor Master",
+    "description": "While wearing heavy armor, bludgeoning, piercing, and slashing damage taken from nonmagical weapons is reduced by 3. [+1 Strength]",
+    "descriptionFull": "You can use your armor to deflect strikes that would kill others. You gain the following benefits:\\n \\u2022 While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by 3.",
+    "prerequisite": "Proficiency with heavy armor",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Inspiring Leader",
+    "description": "",
+    "descriptionFull": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest.",
+    "prerequisite": "Charisma 13 or higher",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Keen Mind",
+    "description": "I always know which way is north and the number of hours left before the next sunrise or sunset. I can accurately recall anything I have seen or heard within the past month. [+1 Intelligence]",
+    "descriptionFull": "You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 You always know which way is north.\\n \\u2022 You always know the number of hours left before the next sunrise or sunset.\\n \\u2022 You can accurately recall anything you have seen or heard within the past month.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Lightly Armored",
+    "description": "I gain proficiency with light armor. [+1 Strength or Dexterity]",
+    "descriptionFull": "You have trained to master the use of light armor, gaining the following benefits:\\n \\u2022 Increase your Strength or Dexterity score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency with light armor.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Linguist",
+    "description": "",
+    "descriptionFull": "You have studied languages and codes, gaining the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 You learn three languages of your choice.\\n \\u2022 You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Lucky",
+    "description": "Use one of three luck points to roll an extra d20 for attacking, being attacked, an ability check, or a saving throw before the outcome is determined. If more than one creature uses luck, no extra dice are rolled. I regain expended luck points when I finish a long rest.",
+    "descriptionFull": "You have inexplicable luck that seems to kick in at just the right moment.\\n   You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.\\n   You can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.\\n   You regain your expended luck points when you finish a long rest.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Mage Slayer",
+    "description": "As a reaction, I can make a melee weapon attack on a creature within 5 ft of me that casts a spell. Concentration checks from damage from me are made with disadvantage. I have advantage on saving throws against spells cast by creatures within 5 feet of me.",
+    "descriptionFull": "You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:\\n \\u2022 When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.\\n \\u2022 When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.\\n \\u2022 You have advantage on saving throws against spells cast by creatures within 5 feet of you.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Martial Adept",
+    "description": "",
+    "descriptionFull": "You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:\\n \\u2022 You learn two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).\\n \\u2022 You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Medium Armor Master",
+    "description": "Wearing medium armor doesn't impose disadvantage on my Dexterity (Stealth) checks. When I wear medium armor, I can add up to 3, rather than 2, to my AC if my Dexterity is 16 or higher.",
+    "descriptionFull": "You have practiced moving in medium armor to gain the following benefits:\\n \\u2022 Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.\\n \\u2022 When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.",
+    "prerequisite": "Proficiency with medium armor",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Moderately Armored",
+    "description": "I gain proficiency with medium armor and shields. [+1 Strength or Dexterity]",
+    "descriptionFull": "You have trained to master the use of medium armor and shields, gaining the following benefits:\\n \\u2022 Increase your Strength or Dexterity score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency with medium armor and shields.",
+    "prerequisite": "Proficiency with light armor",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Mounted Combatant",
+    "description": "I have advantage on melee attack rolls against unmounted creatures smaller than my mount. I can force attacks targeting my mount to target me instead. When a Dex save would halve damage, my mount takes no damage on success and half damage on failure.",
+    "descriptionFull": "You are a dangerous foe to face while mounted. While you are mounted and aren't incapacitated, you gain the following benefits:\\n \\u2022 You have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.\\n \\u2022 You can force an attack targeted at your mount to target you instead.\\n \\u2022 If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Observant",
+    "description": "If I can see a creature's mouth while it is speaking a language I understand, I can interpret what it's saying by reading its lips. I have a +5 bonus to passive Wisdom (Perception) and passive Intelligence (Investigation) scores. [+1 Intelligence or Wisdom]",
+    "descriptionFull": "Quick to notice details of your environment, you gain the following benefits:\\n \\u2022 Increase your Intelligence or Wisdom score by 1, to a maximum of 20.\\n \\u2022 If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.\\n \\u2022 You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Polearm Master",
+    "description": "As a bonus action when I do the Attack action with a glaive/",
+    "descriptionFull": "You can keep your enemies at bay with reach weapons. You gain the following benefits:\\n \\u2022 When you take the Attack action and attack with only a glaive, halberd, quarterstaff, or spear, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and the attack deals bludgeoning damage.\\n \\u2022 While you are wielding a glaive, halberd, pike, quarterstaff, or spear, other creatures provoke an opportunity attack from you when they enter your reach.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Resilient",
+    "description": "Select an ability score using the square button on this feat line. I gain proficiency with the saving throw of that ability score and a +1 added to it.",
+    "descriptionFull": "Choose one ability score. You gain the following benefits:\\n \\u2022 Increase the chosen ability score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in saving throws using the chosen ability.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Savage Attacker",
+    "description": "Once per turn, when I roll damage for a melee weapon attack, I can reroll the weapon's damage dice and use either total.",
+    "descriptionFull": "Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Sentinel",
+    "description": "Creatures I hit with opportunity attacks have 0 speed for this turn. The Disengage action doesn't work on me. When a creature within 5 ft makes an attack against a target other than me, I can use my reaction to make a melee weapon attack against the attacker.",
+    "descriptionFull": "You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:\\n \\u2022 When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.\\n \\u2022 Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach.\\n \\u2022 When a creature within 5 feet of you makes an attack against a target other than you (and that target doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Shield Master",
+    "description": "As a bonus action, when I use the Attack action, I can shove someone within 5 ft with my shield. I add my shield's AC bonus to Dex saves vs. effects targeting only me. As a reaction, if I succeed on a Dex save for half damage, I can interpose my shield to avoid the damage.",
+    "descriptionFull": "You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a shield:\\n \\u2022 If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.\\n \\u2022 If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.\\n \\u2022 If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Skilled",
+    "description": "I gain proficiency with any combination of three skills or tools of my choice.",
+    "descriptionFull": "You gain proficiency in any combination of three skills or tools of your choice.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Skulker",
+    "description": "I can try to hide when I am lightly obscured. My position is not revealed when I am hidden from a creature and miss it with a ranged weapon attack. Dim light doesn't impose disadvantage on my Wisdom (Perception) checks relying on sight.",
+    "descriptionFull": "You are expert at slinking through shadows. You gain the following benefits:\\n \\u2022 You can try to hide when you are lightly obscured from the creature from which you are hiding.\\n \\u2022 When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.\\n \\u2022 Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight.",
+    "prerequisite": "Dexterity 13 or higher",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "War Caster",
+    "description": "Advantage on Con saves to maintain concentration on spells when damaged. Perform somatic components even when holding weapons or shield in one or both hands. Cast spell of 1 action casting time that targets only one creature instead of an opportunity attack.",
+    "descriptionFull": "You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:\\n \\u2022 You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.\\n \\u2022 You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.\\n \\u2022 When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.",
+    "prerequisite": "The ability to cast at least one spell",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Weapon Master",
+    "description": "I gain proficiency with four simple or martial weapons of my choice.\\n[+1 Strength or Dexterity]",
+    "descriptionFull": "You have practiced extensively with a variety of weapons, gaining the following benefits:\\n \\u2022 Increase your Strength or Dexterity score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency with four simple or martial weapons of your choice.",
+    "prerequisite": "",
+    "source": "Player's Handbook"
+  },
+  {
+    "name": "Bountiful Luck",
+    "description": "When an ally I can see within 30 ft of me rolls a 1 on an attack roll, an ability check, or a saving throw, I can use my reaction to let the ally reroll the die. The ally must use the new roll. When I use this, I can't use my racial Lucky trait until the end of my next turn.",
+    "descriptionFull": "Your people have extraordinary luck, which you have learned to mystically lend to your companions when you see them falter. You're not sure how you do it; you just wish it, and it happens. Surely a sign of fortune's favor!\\n   When an ally you can see within 30 feet of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll\\n   When you use this ability, you can't use your Lucky racial trait before the end of your next turn.",
+    "prerequisite": "Being a Halfling",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Dragon Fear",
+    "description": "",
+    "descriptionFull": "When angered, you radiate menace. You gain the following benefits:\\n \\u2022 Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.\\n \\u2022 Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes frightened of you for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success.",
+    "prerequisite": "Being a Dragonborn",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Dragon Hide",
+    "description": "I gain retractable claws that I can retract or extend, requiring no action. While extended, my unarmed strikes deal 1d4 slashing damage. My scales harden, giving me an AC of 13 + Dexterity modifier + shield when I'm not wearing armor. [+1 Str, Con, or Cha]",
+    "descriptionFull": "You manifest scales and claws reminiscent of your draconic ancestors. You gain the following benefits:\\n \\u2022 Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.\\n \\u2022 Your scales harden. While you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.\\n \\u2022 You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike.",
+    "prerequisite": "Being a Dragonborn",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Drow High Magic",
+    "description": "I can cast Detect Magic at will, without expending a spell slot. I can also cast Levitate and Dispel Magic without expending a spell slot, but each only once per long rest. Charisma is my spellcasting ability for these three spells.",
+    "descriptionFull": "You learn more of the magic typical of dark elves. You learn the Detect Magic spell and can cast it at will, without expending a spell slot. You also learn Levitate and Dispel Magic, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.",
+    "prerequisite": "Being a Drow (Dark Elf)",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Dwarven Fortitude",
+    "description": "Whenever I take the Dodge action in combat, I can spend one Hit Die to heal myself. I roll the die, add my Constitution modifier, and regain a number of hit points equal to the total (minimum of 1). [+1 Constitution]",
+    "descriptionFull": "You have the blood of dwarf heroes flowing through your veins. You gain the following benefits:\\n \\u2022 Increase your Constitution score by 1, to a maximum of 20.\\n \\u2022 Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).",
+    "prerequisite": "Being a Dwarf",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Elven Accuracy",
+    "description": "Whenever I have advantage on an attack roll that uses Dexterity, Intelligence, Wisdom, or Charisma, I can reroll one of the dice once. [+1 Dexterity, Intelligence, Wisdom, or Charisma]",
+    "descriptionFull": "The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:\\n \\u2022 Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\\n \\u2022 Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.",
+    "prerequisite": "Being an Elf or a Half-Elf",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Fade Away",
+    "description": "As a reaction when I take damage, I can magically become invisible until the end of my next turn or until I attack, deal damage, or force someone to make a saving throw. Once I do this, I can't do so again until I finish a short rest. [+1 Dexterity or Intelligence]",
+    "descriptionFull": "Your people are clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:\\n \\u2022 Increase your Dexterity or Intelligence score by 1, to a maximum of 20.\\n \\u2022 Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest.",
+    "prerequisite": "Being a Gnome",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Fey Teleportation",
+    "description": "I can cast Misty Step without using a spell slot. I can do so once per short rest. Intelligence is my spellcasting ability for this spell. I also learn to speak, read, and write Sylvan. [+1 Intelligence or Charisma]",
+    "descriptionFull": "Your study of high elven lore has unlocked fey power that few other elves possess, except your eladrin cousins. Drawing on your fey ancestry, you can momentarily stride through the Feywild to shorten your path from one place to another. You gain the following benefits:\\n \\u2022 Increase your Intelligence or Charisma score by 1, to a maximum of 20.\\n \\u2022 You learn to speak, read, and write Sylvan.\\n \\u2022 You learn the Misty Step spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell.",
+    "prerequisite": "Being a High Elf",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Flames of Phlegethos",
+    "description": "When I cast a fire damage spell, I can reroll any 1 on fire damage dice once. I then sheathe myself in flame until my next turn ends. These shed bright light in 30 ft, dim light in 30 ft and cause any within 5 ft that hit me in melee to take 1d4 fire damage. [+1 Int or Cha]",
+    "descriptionFull": "You learn to call on hellfire to serve your commands. You gain the following benefits:\\n \\u2022 Increase your Intelligence or Charisma score by 1, to a maximum of 20.\\n \\u2022 When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.\\n \\u2022 Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don't harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.",
+    "prerequisite": "Being a Tiefling",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Infernal Constitution",
+    "description": "I have resistance to cold and poison damage and I have advantage on saving throws against being poisoned.\\n[+1 Constitution]",
+    "descriptionFull": "Fiendish blood runs strong in you, unlocking a resilience akin to that possessed by some fiends. You gain the following benefits:\\n \\u2022 Increase your Constitution score by 1, to a maximum of 20.\\n \\u2022 You have resistance to cold and poison damage.\\n \\u2022 You have advantage on saving throws against being poisoned.",
+    "prerequisite": "Being a Tiefling",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Orcish Fury",
+    "description": "Once per short rest, I can roll an extra damage die for an attack with a simple or martial weapon. In addition, Immediately after I use my Relentless Endurance trait, I can use my reaction to make one weapon attack. [+1 Strength or Constitution]",
+    "descriptionFull": "Your fury burns tirelessly. You gain the following benefits:\\n \\u2022 Increase your Strength or Constitution score by 1, to a maximum of 20.\\n \\u2022 When you hit with an attack using a simple or martial weapon, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type. Once you use this ability, you can't use it again until you finish a short or long rest.\\n \\u2022 Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack.",
+    "prerequisite": "Being a Half-Orc",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Prodigy",
+    "description": "I gain proficiency with one skill of my choice and expertise with it, or expertise with another skill of my choice that I'm already proficient with. I also gain proficiency with one tool of my choice and fluency in one language of my choice.",
+    "descriptionFull": "You have a knack for learning new things. You gain the following benefits:\\n \\u2022 You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.\\n \\u2022 Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.",
+    "prerequisite": "Being a Half-Elf, Half-Orc, or Human",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Second Chance",
+    "description": "When a creature I can see hits me with an attack roll, I can use my reaction to force that creature to reroll. Once I use this ability, I can't do so again until I roll initiative at the start of combat or I finish a short rest. [+1 Dexterity, Constitution, or Charisma]",
+    "descriptionFull": "Fortune favors you when someone tries to strike you. You gain the following benefits:\\n \\u2022 Increase your Dexterity, Constitution, or Charisma score by 1, to a maximum of 20.\\n \\u2022 When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can't use it again until you roll initiative at the start of combat or until you finish a short or long rest.",
+    "prerequisite": "Being a Halfling",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Wood Elf Magic",
+    "description": "I learn a druid cantrip. In addition, I can cast Longstrider and Pass Without Trace, without expending a spell slot, but each only once per long rest. Wisdom is my spellcasting ability for these three spells.",
+    "descriptionFull": "You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the Longstrider and Pass Without Trace spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.",
+    "prerequisite": "Being a Wood Elf",
+    "source": "Xanathar's Guide to Everything"
+  },
+  {
+    "name": "Aberrant Dragonmark",
+    "description": "I learn a sorcerer cantrip, and a 1st-level spell that I can cast once per short rest. They use Con as spellcasting ability. I can expend and roll an HD when I cast the level 1 spell. If even, I gain it in temp HP. If odd, a random target in 30 ft takes it in force damage. [+1 Con]",
+    "descriptionFull": "You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it. You gain the following benefits:\\n \\u2022 Increase your Constitution score by 1, to a maximum of 20.\\n \\u2022 You learn a cantrip of your choice from the sorcerer spell list. In addition, choose a 1st-level spell from the sorcerer spell list. You learn that spell and can cast it through your mark. Once you cast it, you must finish a short or long rest before you can cast it again through the mark. Constitution is your spellcasting ability for these spells.\\n \\u2022 When you cast the 1st-level spell through your mark, you can expend one of your Hit Dice and roll it. If you roll an even number, you gain a number of temporary hit points equal to the number rolled. If you roll an odd number, one random creature within 30 feet of you (not including you) takes force damage equal to the number rolled. If no other creatures are in range, you take the damage.\\n\\nYou also develop a random flaw from the Aberrant Dragonmark Flaws table.\\n\\n",
+    "prerequisite": "No other dragonmark",
+    "source": "Eberron: Rising from the Last War"
+  },
+  {
+    "name": "Artificer Initiate",
+    "description": "",
+    "descriptionFull": "You've learned some of an artificer's inventiveness:\\n \\u2022 You learn one cantrip of your choice from the artificer spell list, and you learn one 1st-level spell of your choice from that list. Intelligence is your spellcasting ability for these spells.\\n \\u2022 You can cast this feat's 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.\\n \\u2022 You gain proficiency with one type of artisan's tools of your choice, and you can use that type of tool as a spellcasting focus for any spell you cast that uses Intelligence as its spellcasting ability.",
+    "prerequisite": "",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Chef",
+    "description": "During a short rest, I can make food for 4 + my Prof",
+    "descriptionFull": "Time spent mastering the culinary arts has paid off, granting you the following benefits:\\n \\u2022 Increase your Constitution or Wisdom score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency with cook's utensils if you don't already have it.\\n \\u2022 As part of a short rest, you can cook special food, provided you have ingredients and cook's utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra 1d8 hit points.\\n \\u2022 With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus.",
+    "prerequisite": "",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Crusher",
+    "description": "Once per turn, when I hit a creature no more than one size larger than me with an attack that deals bludgeoning damage, I can move it 5 ft to an unoccupied space. If I score a critical hit that deals bludgeoning damage, attacks against the creature hit gain advantage until the start of my next turn. [+1 ",
+    "descriptionFull": "You are practiced in the art of crushing your enemies, granting you the following benefits:\\n \\u2022 Increase your Strength or Constitution by 1, to a maximum of 20.\\n \\u2022 Once per turn, when you hit a creature with an attack that deals bludgeoning damage, you can move it 5 feet to an unoccupied space, provided the target is no more than one size larger than you.\\n \\u2022 When you score a critical hit that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the start of your next turn.",
+    "prerequisite": "",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Eldritch Adept",
+    "description": "",
+    "descriptionFull": "Studying occult lore, you have unlocked eldritch power within yourself: you learn one Eldritch Invocation option of your choice from the warlock class. If the invocation has a prerequisite of any kind, you can choose that invocation only if you're a warlock who meets the prerequisite.\\n   Whenever you gain a level, you can replace the invocation with another one from the warlock class.",
+    "prerequisite": "Spellcasting or Pact Magic feature",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Fey Touched",
+    "description": "I learn Misty Step and one 1st level divination or enchantment spell. I can cast each once per long rest at their lowest level without expending a spell slot, and can cast them if I have a spell slot to do so. My spellcasting ability is the ability I choose to increase when I gain this feat. [+1 Intelligence, Wisdom, or Charisma]",
+    "descriptionFull": "Your exposure to the Feywild's magic has changed you, granting you the following benefits:\\n \\u2022 Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\\n \\u2022 You learn the misty step spell and one 1st-level spell of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.",
+    "prerequisite": "",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Metamagic Adept",
+    "description": "",
+    "descriptionFull": "You've learned how to exert your will on your spells to alter how they function:\\n \\u2022 You learn two Metamagic options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you reach a level that grants the Ability Score Improvement feature, you can replace one of these Metamagic options with another one from the sorcerer class.\\n \\u2022 You gain 2 sorcery points to spend on Metamagic (these points are added to any sorcery points you have from another source but can be used only on Metamagic). You regain all spent sorcery points when you finish a long rest.",
+    "prerequisite": "Spellcasting or Pact Magic feature",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Poisoner",
+    "description": "My poison damage rolls ignore poison resistance. As a bonus action, I can apply poison to a weapon or piece of ammo. I can use a poisoner's kit and 50 gp to create my Prof Bonus doses of poison in 1 hour. Potent 1 min after applying. DC 14 Con save or 2d8 poison damage and poisoned until the end of my next turn.",
+    "descriptionFull": "You can prepare and deliver deadly poisons, granting you the following benefits:\\n \\u2022 When you make a damage roll that deals poison damage, it ignores resistance to poison damage.\\n \\u2022 You can apply poison to a weapon or piece of ammunition as a bonus action, instead of an action.\\n \\u2022 You gain proficiency with the poisoner's kit if you don't already have it. With one hour of work using a poisoner's kit and expending 50 gp worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied to a weapon or piece of ammunition, the poison retains its potency for 1 minute or until you hit with the weapon or ammunition. When a creature takes damage from the coated weapon or ammunition, that creature must succeed on a DC 14 Constitution saving throw or take 2d8 poison damage and become poisoned until the end of your next turn.",
+    "prerequisite": "",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Shadow Touched",
+    "description": "I learn Invisibility and one 1st level illusion or necromancy spell. I can cast each once per long rest at their lowest level without expending a spell slot, and can cast them if I have a spell slot to do so. My spellcasting ability is the ability I choose to increase when I gain this feat. [+1 Intelligence, Wisdom, or Charisma]",
+    "descriptionFull": "Your exposure to the Shadowfell's magic has changed you, granting you the following benefits:\\n \\u2022 Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.\\n \\u2022 You learn the invisibility spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You learn the invisibility spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.",
+    "prerequisite": "",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Skill Expert",
+    "description": "I gain proficiency in one skill and expertise in that same skill or another skill I'm proficient with. [+1 to one ability score of my choice]",
+    "descriptionFull": "You have honed your proficiency with particular skills, granting you the following benefits:\\n \\u2022 Increase one ability score of your choice by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in one skill of your choice.\\n \\u2022 Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.",
+    "prerequisite": "",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Slasher",
+    "description": "Once per turn when I deal slashing damage to a target, I can reduce its speed by 10 ft until the start of my next turn. When I score a critical hit that deals slashing damage to a creature, the grievous wound causes it to have disadvantage on all attack rolls until the start of my next turn. [+1 Strength or Dexterity]",
+    "descriptionFull": "You've learned where to cut to have the greatest results, granting you the following benefits:\\n \\u2022 Increase your Strength or Dexterity by 1, to a maximum of 20.\\n \\u2022 Once per turn when you hit a creature with an attack that deals slashing damage, you can reduce the speed of the target by 10 feet until the start of your next turn.\\n \\u2022 When you score a critical hit that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls.",
+    "prerequisite": "",
+    "source": "Tasha's Cauldron of Everything"
+  },
+  {
+    "name": "Gift of the Chromatic Dragon",
+    "description": "As a bonus action once per long rest, I can touch a simple or martial weapon and infuse it to deal +1d4 acid, cold, fire, poison, or lightning damage for 1 minute. As a reaction when I take acid, cold, fire, lightning, or poison damage, I can gain resistance to that damage instance. I can do this my Prof Bonus per long rest.",
+    "descriptionFull": "You've manifested some of the power of chromatic dragons, granting you the following benefits:",
+    "prerequisite": "",
+    "source": "Fizban's Treasury of Dragons"
+  },
+  {
+    "name": "Gift of the Gem Dragon",
+    "description": "As a reaction when I take damage from a creature that is within 10 ft, I can have it take 2d8 force damage and push it up to 10 ft away. If it succeeds on a Str save (DC 8 + Prof Bonus + chosen ability score modifier), it halves the damage and isn't pushed. I can do this my Prof Bonus per long rest. [+1 Int, Wis or Cha]",
+    "descriptionFull": "You've manifested some of the power of gem dragons, granting you the following benefits:",
+    "prerequisite": "",
+    "source": "Fizban's Treasury of Dragons"
+  },
+  {
+    "name": "Gift of the Metallic Dragon",
+    "description": "I know Cure Wounds. I can cast it using spell slots and once per long rest without a spell slot. As a reaction when I or another I can see within 5 ft is hit by an attack, I can add my Proficiency Bonus to AC, potentially causing the attack to miss. I can do this my Proficiency Bonus per long rest.",
+    "descriptionFull": "You've manifested some of the power of metallic dragons, granting you the following benefits:",
+    "prerequisite": "",
+    "source": "Fizban's Treasury of Dragons"
+  },
+  {
+    "name": "Adept of the Black Robes",
+    "description": "I learn one 2nd-level Ench or Necro spell, which I can cast once per long rest at its lowest level without a spell slot, or as normal with one. When a creature I can see within 60 ft fails its save vs. my damaging spell, I can expend HD up to the spell's level and add the rolls to the damage of the spell for that one creature.",
+    "descriptionFull": "You chose the moon Nuitari to influence your magic, and your ambition and loyalty to the Order of the Black Robes have been recognized, granting you these benefits:",
+    "prerequisite": "4th level, Initiate of High Sorcery (Nuitari) feat",
+    "source": "Dragonlance: Shadow of the Dragon Queen"
+  },
+  {
+    "name": "Adept of the Red Robes",
+    "description": "I learn a 2nd-level Illusion or Transmutation spell, which I can cast once per long rest at its lowest level without a spell slot, or as normal with one. When I roll 9 or lower on the d20 for an attack or ability check, I can treat the roll as a 10. I can do this a number of times per long rest equal to my proficiency bonus.",
+    "descriptionFull": "You chose the moon Lunitari to influence your magic, and your dedication to maintaining the balance between all things has been recognized by the Order of the Red Robes, granting you these benefits:",
+    "prerequisite": "4th level, Initiate of High Sorcery (Lunitari) feat",
+    "source": "Dragonlance: Shadow of the Dragon Queen"
+  },
+  {
+    "name": "Adept of the White Robes",
+    "description": "I learn one 2nd-level Abjur or Div spell, which I can cast once per long rest at its lowest level without a spell slot, or as normal with one. As a reaction when I or a creature I can see within 30 ft is damaged, I can expend a spell slot and roll d6s equal to its level to reduce the damage by that much + my spellcasting modifier.",
+    "descriptionFull": "You chose the moon Solinari to influence your magic, and your oath to use magic to make the world a better place has been recognized by the Order of the White Robes, granting you these benefits:",
+    "prerequisite": "4th level, Initiate of High Sorcery (Solinari) feat",
+    "source": "Dragonlance: Shadow of the Dragon Queen"
+  },
+  {
+    "name": "Squire of Solamnia",
+    "description": "Mounting or dismounting costs me only 5-ft of movement. Once per turn, I can grant myself advantage on a weapon attack, adding +1d8 to the damage roll if it hits. I can use this benefit my proficiency bonus per long rest, but a use is expended only if the attack hits.",
+    "descriptionFull": "Your training in the ways of the Knights of Solamnia grants you these benefits:",
+    "prerequisite": "Dragonlance Campaign, plus Fighter, Paladin, or Knight of Solamnia background",
+    "source": "Dragonlance: Shadow of the Dragon Queen"
+  },
+  {
+    "name": "Knight of the Crown",
+    "description": "As a bonus action, I can use Commanding Rally on one ally within 30 ft that can see or hear me to immediately make one weapon attack as a reaction. +1d8 is added to the damage roll, if it hits. I can do this my proficiency bonus per long rest. [+1 Strength, Dexterity, or Constitution]",
+    "descriptionFull": "You are a Knight of Solamnia aligned with the Order of the Crown, a group that extols the virtues of cooperation, loyalty, and obedience. You excel in group combat and gain these benefits:",
+    "prerequisite": "4th level, Squire of Solamnia feat",
+    "source": "Dragonlance: Shadow of the Dragon Queen"
+  },
+  {
+    "name": "Knight of the Rose",
+    "description": "As a bonus action, I can use Bolstering Rally on myself or an ally within 30 ft that I can see and can see or hear me. They gain 1d8 + my proficiency bonus + the modifier of the ability chosen to increase temporary hit points. I can do this my proficiency bonus per long rest. [+1 Constitution, Wisdom, or Charisma]",
+    "descriptionFull": "You are a Knight of Solamnia aligned with the Order of the Rose, a group known for leadership, justice, and wisdom. Your resolve grants you these benefits:",
+    "prerequisite": "4th level, Squire of Solamnia feat",
+    "source": "Dragonlance: Shadow of the Dragon Queen"
+  },
+  {
+    "name": "Knight of the Sword",
+    "description": "Once per turn, when I hit a creature with a weapon attack, I can have it make a Wisdom save DC (8 + Prof Bonus + mod of the ability increased by this feat) or be frightened of me until my next turn ends. On a successful save, the target has disadv. on its next attack before its next turn ends. I can do this my proficiency bonus per long rest. [+1 Int/Wis/Cha]",
+    "descriptionFull": "You are a Knight of Solamnia aligned with the Order of the Sword, a group devoted to heroism and courage. Bravery steels your spirit, granting you these benefits:",
+    "prerequisite": "4th level, Squire of Solamnia feat",
+    "source": "Dragonlance: Shadow of the Dragon Queen"
+  },
+  {
+    "name": "Guile of the Cloud Giant",
+    "description": "As a reaction when a creature I see within 30 ft hits me with an attack roll, I can give myself resistance to that attack's damage. I then teleport to an unoccupied space that I can see within 30 ft. I can do this reaction my proficiency bonus times per long rest.",
+    "descriptionFull": "You've manifested the confounding magic emblematic of cloud giants, granting you the following benefits:",
+    "prerequisite": "4th level, Strike of the Giants (Cloud Strike) feat",
+    "source": "GotG"
+  },
+  {
+    "name": "Soul of the Storm Giant",
+    "description": "As a bonus action, Prof B. per long rest, I can make a 10-ft radius Maelstrom Aura until my next turn starts: I get lightning/thunder resistance, attacks vs. me have disadv., I can force those starting their turn inside to a Str save DC 8 + Prof + Str/Con/Cha mod or halve their speed until their next turn starts. [+1 Str/Con/Cha]",
+    "descriptionFull": "You've manifested the tempest magic emblematic of storm giants, granting you the following benefits:",
+    "prerequisite": "4th level, Strike of the Giants (Storm Strike) feat",
+    "source": "GotG"
+  },
+  {
+    "name": "Vigor of the Hill Giant",
+    "description": "Bulwark: When I would be moved or knocked prone I can use my reaction to prevent that. Iron Stomach: Whenever I eat food as part of a short rest and spend HD to regain hit points, I regain additional hp equal to my Constitution modifier + my proficiency bonus. [+1 Strength/Constitution/Wisdom]",
+    "descriptionFull": "You've manifested the resilience emblematic of hill giants, granting you the following benefits:",
+    "prerequisite": "4th level, Strike of the Giants (Hill Strike) feat",
+    "source": "GotG"
+  },
+  {
+    "name": "Agent of Order",
+    "description": "Once per turn when I damage a creature I see within 60 ft, I can deal +1d8 force damage to it, and it must succeed on a Wis save (DC 8 + Prof Bonus + spellcasting ability mod of Scion of the Outer Planes) or be restrained until my next turn starts. I can do this a number of times equal to my Prof Bonus per long rest.",
+    "descriptionFull": "You can channel cosmic forces of order to gain these benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes (Lawful Outer Plane) feat",
+    "source": "Planescape: Adventures in the Multiverse"
+  },
+  {
+    "name": "Baleful Scion",
+    "description": "Once per turn, when I damage a creature I can see within 60 ft, I can also deal 1d6 + my Proficiency Bonus necrotic damage to it. I then regain a number of hit points equal to this necrotic damage dealt. I can do this a number of times equal to my Proficiency Bonus per long rest. [+1 to any one ability score]",
+    "descriptionFull": "You can channel cosmic forces of evil to gain these benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes (Evil Outer Plane) feat",
+    "source": "Planescape: Adventures in the Multiverse"
+  },
+  {
+    "name": "Cohort of Chaos",
+    "description": "When I roll a 1 or a 20 on an attack roll or save, a the magic of chaos flares up and I roll on the Chaotic Flare table to determine what happens (see notes for table). As a bonus action, my Proficiency Bonus per long rest, I can force a flare to happen. [+1 to any one ability score]",
+    "descriptionFull": "You can channel cosmic forces of chaos to gain these benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes (Chaotic Outer Plane) feat",
+    "source": "Planescape: Adventures in the Multiverse"
+  },
+  {
+    "name": "Planar Wanderer",
+    "description": "After each long rest, I can gain acid, cold, or fire resistance, that lasts until my next long rest ends. I know the direction to the last portal I used while on the same plane as it. As an action, I can try to open or close a portal (portal cracker). As an action once per long rest, I can detect portals (portal sense). See notes.",
+    "descriptionFull": "You can draw on the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms, granting you these benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes feat",
+    "source": "Planescape: Adventures in the Multiverse"
+  },
+  {
+    "name": "Righteous Heritor",
+    "description": "As a reaction when I or a creature I can see within 30 ft takes damage, I can reduce the damage taken by 1d10 + my Proficiency Bonus. I can do this a number of times equal to my Proficiency Bonus per long rest. [+1 to any one ability score]",
+    "descriptionFull": "You can channel cosmic forces of good to gain these benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes (Good Outer Plane) feat",
+    "source": "Planescape: Adventures in the Multiverse"
+  },
+  {
+    "name": "Acrobat",
+    "description": "I gain expertise with Acrobatics, or proficiency if not so already. As a bonus action, I can make a DC 15 Dexterity (Acrobatics) check to have difficult terrain not cost me extra movement for this turn. [+1 Dexterity]",
+    "descriptionFull": "You become more nimble, gaining the following benefits:\\n \\u2022 Increase your Dexterity score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Acrobatics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 As a bonus action, you can make a DC 15 Dexterity (Acrobatics) check. If you succeed, difficult terrain doesn't cost you extra movement until the end of the current turn.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Animal Handler",
+    "description": "I gain expertise with Animal Handling, or proficiency if not so already. As a bonus action, I can command a friendly beast not under another's command within 60 ft. If it hears me, I decide its next turn or give a general command lasting for 1 minute. [+1 Wisdom]",
+    "descriptionFull": "You master the techniques needed to train and handle animals. You gain the following benefits:\\n \\u2022 Increase your Wisdom score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Animal Handling skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn't currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Arcanist",
+    "description": "I gain expertise with Arcana, or proficiency if not so already. I learn the Prestidigitation cantrip. I can cast Detect Magic without using a spell slot. Once I do so, I can't do it again until I finish a long rest. [+1 Intelligence]",
+    "descriptionFull": "You study the arcane arts, gaining the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Arcana skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 You learn the Prestidigitation and Detect Magic spells. You can cast detect magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Brawny",
+    "description": "I gain expertise with Athletics, or proficiency if not so already. I count as one size larger when determining my carrying capacity and the weight I can push, drag, or lift. [+1 Strength]",
+    "descriptionFull": "You become stronger, gaining the following benefits:\\n \\u2022 Increase your Strength score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Athletics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 You count as if you were one size larger for the purpose of determining your carrying capacity.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Diplomat",
+    "description": "I gain expertise with Persuasion, or proficiency if not so already. With a one minute long conversation outside of combat, I can make a Persuasion vs. its Insight. If successful, it is charmed by me as long as it remains within 60 ft and 1 minute after that [+1 Charisma]",
+    "descriptionFull": "You master the arts of diplomacy, gaining the following benefits:\\n \\u2022 Increase your Charisma score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Persuasion skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Empathic",
+    "description": "I gain expertise with Insight, or proficiency if not so already. As an action, a humanoid within 30 ft I can see must make its Deception vs. my Insight or I gain advantage on attacks and ability checks against it until the end of my next turn. [+1 Wisdom]",
+    "descriptionFull": "You possess keen insight into how other people think and feel. You gain the following benefits:\\n \\u2022 Increase your Wisdom score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Insight skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 You can use your action to try to get uncanny insight about one humanoid you can see within 30 feet of you. Make a Wisdom (Insight) check contested by the target's Charisma (Deception) check. If your check succeeds, you have advantage on attack rolls and ability checks against the target until the end of your next turn.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Historian",
+    "description": "I gain expertise with History, or proficiency if not so already. When I use the Help action to help a creature that can understand me with an ability check, I can make a DC 15 Int (History) check to give a bonus equal to my proficiency bonus. [+1 Intelligence]",
+    "descriptionFull": "Your study of history rewards you with the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the History skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 When you take the Help action to aid another creature's ability check, you can make a DC 15 Intelligence (History) check. On a success, that creature's check gains a bonus equal to your proficiency bonus, as you share pertinent advice and historical examples. To receive this bonus, the creature must be able to understand what you're saying.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Investigator",
+    "description": "I gain expertise with Investigation, or proficiency if not so already. As a bonus action, I can take the Search action. [+1 Intelligence]",
+    "descriptionFull": "You have an eye for detail and can pick out the smallest clues. You gain the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Investigation skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 You can take the Search action as a bonus action.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Medic",
+    "description": "I gain expertise with Medicine, or proficiency if not so already. During a short rest, I can attend to the wounds of up to 6 creatures. With a DC 15 Wis (Medicine) check for each creature, that target gets the maximum result on one of its HD that it uses. [+1 Wisdom]",
+    "descriptionFull": "You master the physician's arts, gaining the following benefits:\\n \\u2022 Increase your Wisdom score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Medicine skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom (Medicine) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Menacing",
+    "description": "I gain expertise with Intimidation, or proficiency if not so already. Instead of 1 attack in my Attack action, a humanoid within 30 ft I can see and that can see and hear me must make its Insight vs. my Intimidation or be frightened until end of my next turn. [+1 Cha]",
+    "descriptionFull": "You become fearsome to others, gaining the following benefits:\\n \\u2022 Increase your Charisma score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Intimidation skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 When you take the Attack action on your turn, you can replace one attack with an attempt to demoralize one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Intimidation) check contested by the target's Wisdom (Insight) check. If your check succeeds, the target is frightened until the end of your next turn. If your check fails, the target can't be frightened by you in this way for 1 hour.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Naturalist",
+    "description": "I gain expertise with Nature, or proficiency if not so already. I learn the Druidcraft cantrip. I can cast Detect Poison and Disease without using a spell slot. Once I do so, I can't do it again until I finish a long rest. [+1 Intelligence]",
+    "descriptionFull": "Your extensive study of nature rewards you with the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Nature skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 You learn the Druidcraft and Detect Poison and Disease spells. You can cast Detect Poison and Disease once without expending a spell slot, and you regain the ability to do so when you finish a long rest.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Perceptive",
+    "description": "I gain expertise with Perception, or proficiency if not so already. I don't have disadvantage on my Perception checks from being in a lightly obscured area (dim light), provided that I can still both see and hear. [+1 Wisdom]",
+    "descriptionFull": "You hone your senses until they become razor sharp. You gain the following benefits:\\n \\u2022 Increase your Wisdom score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Performer",
+    "description": "I gain expertise with Performance, or proficiency if not so already. While performing, I can distract one humanoid. It must make its Insight vs. my Performance or have disadv. on its Perception and Investigation checks until I stop performing. [+1 Charisma]",
+    "descriptionFull": "You master performance so that you can command any stage. You gain the following benefits:\\n \\u2022 Increase your Charisma score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Performance skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 While performing, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma (Performance) check contested by the humanoid's Wisdom (Insight) check. If your check succeeds, you grab the humanoid's attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Quick-Fingered",
+    "description": "I gain expertise with Sleight of Hand, or proficiency if not so already. As a bonus action, I can make a Dexterity (Sleight of Hand) check to plant something on someone else, conceal an object on a creature, lift a purse, or take something from a pocket. [+1 Dexterity]",
+    "descriptionFull": "Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits:\\n \\u2022 Increase your Dexterity score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Sleight of Hand skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 As a bonus action, you can make a Dexterity (Sleight of Hand) check to plant something on someone else, conceal an object on a creature, lift a purse, or take something from a pocket.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Silver-Tongued",
+    "description": "I gain expertise with Deception, or proficiency if not so already. Instead of 1 attack in my Attack action, a humanoid within 30 ft makes its Insight vs. my Deception or until end of my next turn, I gain adv. on attacks and don't provoke its opportunity attacks. [+1 Cha]",
+    "descriptionFull": "You develop your conversational skill to better deceive others. You gain the following benefits:\\n \\u2022 Increase your Charisma score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Deception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 When you take the Attack action on your turn, you can replace one attack with an attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Deception) check contested by the target's Wisdom (Insight) check. If your check succeeds, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can't be deceived by you in this way for 1 hour.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Stealthy",
+    "description": "I gain expertise with Stealth, or proficiency if not so already. When I'm hidden, I can move 10 ft to another position without revealing myself, provided that I won't be clearly visible in this new position either. [+1 Dexterity]",
+    "descriptionFull": "You know how best to hide. You gain the following benefits:\\n \\u2022 Increase your Dexterity score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Stealth skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Survivalist",
+    "description": "I gain expertise with Survival, or proficiency if not so already. I can cast Alarm without using a spell slot. Once I do so, I can't do it again until I finish a long rest. [+1 Wisdom]",
+    "descriptionFull": "You master wilderness lore, gaining the following benefits:\\n \\u2022 Increase your Wisdom score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Survival skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 You learn the Alarm spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a long rest.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Theologian",
+    "description": "I gain expertise with Religion, or proficiency if not so already. I learn the Thaumaturgy cantrip. I can cast Detect Evil and Good without using a spell slot. Once I do so, I can't do it again until I finish a long rest. [+1 Intelligence]",
+    "descriptionFull": "Your extensive study of religion rewards you with the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in the Religion skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 You learn the Thaumaturgy and Detect Evil and Good spells. You can cast Detect Evil and Good once without expending a spell slot, and you regain the ability to do so when you finish a long rest.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats and Skills"
+  },
+  {
+    "name": "Barbed Hide",
+    "description": "I gain expertise with Intimidation, or proficiency if not so already. As a bonus action, I can protrude/retract small barbs from my skin. With them out, at the start of each of my turns I deal 1d6 piercing damage to any I'm grappling or are grappling me. [+1 Cha]",
+    "descriptionFull": "One of your ancestors was a barbed devil or other spiky fiend. Barbs protrude from your head. You gain the following benefits:\\n \\u2022 Increase your Charisma score by 1, to a maximum of 20.\\n \\u2022 As a bonus action, you can cause small barbs to protrude all over your body or cause them to retract. At the start of each of your turns while the barbs are out, you deal 1d6 piercing damage to any creature grappling you or any creature grappled by you.\\n \\u2022 You gain proficiency in the Intimidation skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+    "prerequisite": "Being a Tiefling",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Bountiful Luck",
+    "description": "Whenever an ally I can see within 30 feet of me rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, I can use my reaction to let the ally reroll the die. The ally must use the new roll.",
+    "descriptionFull": "Whenever an ally you can see within 30 feet of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll.",
+    "prerequisite": "Being a Halfling",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Critter Friend",
+    "description": "I gain expertise with Animal Handling, or proficiency if I didn't have that already. I can cast Speak With Animals and Animal Friendship without using a spell slot. I can cast each of these spells like this once per long rest. Intelligence is my spellcasting ability for these.",
+    "descriptionFull": "Your friendship with animals mystically deepens. You gain the following benefits:\\n \\u2022 You gain proficiency in the Animal Handling skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\\n \\u2022 You learn the Speak with Animals spell and can cast it at will, without expending a spell slot. You also learn the Animal Friendship spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Intelligence is your spellcasting ability for these spells.",
+    "prerequisite": "Being a Forest Gnome",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Dragon Fear",
+    "description": "",
+    "descriptionFull": "When angered, you radiate menace. You gain the following benefits:\\n \\u2022 Increase your Strength or Charisma score by 1, to a maximum of 20.\\n \\u2022 Instead of exhaling destructive energy, you can roar and expend a use of your breath weapon to force each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds if it can't hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success.",
+    "prerequisite": "Being a Dragonborn",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Drow High Magic",
+    "description": "I can cast Detect Magic at will, without expending a spell slot. I can also cast Levitate and Dispel Magic without expending a spell slot, but each only once per long rest. Charisma is my spellcasting ability for these three spells.",
+    "descriptionFull": "You learn more of the spells typical for your people. You learn Detect Magic and can cast it at will, without expending a spell slot. You also learn Levitate and Dispel Magic, each of which you can cast once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a long rest. Charisma is your spellcasting ability for these spells.",
+    "prerequisite": "Being a Drow (Dark Elf)",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Dwarf Resilience",
+    "description": "Whenever I take the Dodge action in combat, I can spend one Hit Die to heal myself. I roll the die, add my Constitution modifier, and regain a number of hit points equal to the total (minimum of 1). [+1 Constitution]",
+    "descriptionFull": "You have the blood of dwarf heroes flowing through your veins. You gain the following benefits:\\n \\u2022 Increase your Constitution score by 1, to a maximum of 20.\\n \\u2022 Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).",
+    "prerequisite": "Being a Dwarf",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Elven Accuracy",
+    "description": "Whenever I have advantage on an attack roll, I can reroll one of the dice once. [+1 Dexterity]",
+    "descriptionFull": "You have uncanny aim. You gain the following benefits:\\n \\u2022 Increase your Dexterity score by 1, to a maximum of 20.\\n \\u2022 Whenever you have advantage on an attack roll, you can reroll one of the dice once.",
+    "prerequisite": "Being an Elf or a Half-Elf",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Everybody's Friend",
+    "description": "I gain expertise with Deception and Persuasion, or proficiency with them if I didn't have that already. [+1 Charisma]",
+    "descriptionFull": "You develop your magnetic personality to ease your way through the world. You gain the following benefits:\\n \\u2022 You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.",
+    "prerequisite": "Being a Half-Elf",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Fade Away",
+    "description": "As a reaction when I take damage, I can magically become invisible until the end of my next turn or until I attack, deal damage, or force someone to make a saving throw. Once I do this, I can't do so again until I finish a short rest. [+1 Intelligence]",
+    "descriptionFull": "You can draw on your magical heritage to escape danger. You gain the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 When you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest.",
+    "prerequisite": "Being a Gnome",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Fey Teleportation",
+    "description": "I can cast Misty Step without using a spell slot. I can do so once per short rest. Intelligence is my spellcasting ability for this spell. [+1 Intelligence]",
+    "descriptionFull": "Drawing on your fey ancestry, you have learned how to teleport. You gain the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 You learn the Misty Step spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell.",
+    "prerequisite": "Being a High Elf",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Flames of Phlegethos",
+    "description": "When I cast a fire damage spell, I can reroll any 1 on fire damage dice. I can then sheathe myself in flame until my next turn ends. These shed bright light in 30 ft, dim light in 30 ft and cause any within 5 ft that hit me in melee take 1d4 fire damage. [+1 Int or Cha]",
+    "descriptionFull": "You learn to call on hellfire to serve your commands. You gain the following benefits:\\n \\u2022 Increase your Intelligence or Charisma score by 1, to a maximum of 20.\\n \\u2022 When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.\\n \\u2022 Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don't harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.",
+    "prerequisite": "Being a Tiefling",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Grudge-Bearer",
+    "description": "My hatred for a creature type gives me these benefits against them: Adv. on attacks in the first round of combat. Their opportunity attacks have disadv. against me. I add twice my Prof Bonus on related Arcana, History, Nature, and Religion checks. [+1 Str, Con, or Wis]",
+    "descriptionFull": "You have a deep hatred for a particular kind of creature. Choose your foes, a type of creature to bear the burden of your wrath: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can choose two races of humanoid (such as gnolls and orcs). You gain the following benefits:\\n \\u2022 Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\\n \\u2022 During the first round of any combat against your chosen foes, your attack rolls against any of them have advantage.\\n \\u2022 When any of your chosen foes makes an opportunity attack against you, it makes the attack roll with disadvantage.\\n \\u2022 Whenever you make an Intelligence (Arcana, History, Nature, or Religion) check to recall information about your chosen foes, you add double your proficiency bonus to the check, even if you're not normally proficient.",
+    "prerequisite": "Being a Dwarf",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Human Determination",
+    "description": "When I make an attack roll, an ability check, or a saving throw, I can do so with advantage. Once I use this ability, I can't do so again until I finish a short rest.\\n[+1 to one ability score]",
+    "descriptionFull": "You are filled with a determination that can draw the unreachable within your reach. You gain the following benefits:\\n \\u2022 Increase one ability score of your choice by 1, to a maximum of 20.\\n \\u2022 When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can't use it again until you finish a short or long rest.",
+    "prerequisite": "Being a Human",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Infernal Constitution",
+    "description": "I have resistance to cold and poison damage and I have advantage on saving throws against being poisoned.\\n[+1 Constitution]",
+    "descriptionFull": "Fiendish blood runs strong in you. You gain the following benefits:\\n \\u2022 Increase your Constitution score by 1, to a maximum of 20.\\n \\u2022 You have resistance to cold and poison damage.\\n \\u2022 You have advantage on saving throws against being poisoned.",
+    "prerequisite": "Being a Tiefling",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Orcish Aggression",
+    "description": "As a bonus action, I can move up to my speed toward an enemy of my choice that I can see or hear. I must end this move closer to the enemy than I started.",
+    "descriptionFull": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.",
+    "prerequisite": "Being a Half-Orc",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Orcish Fury",
+    "description": "Once per short rest, I can roll an extra damage die for an attack with a simple or martial weapon. In addition, Immediately after I use my Relentless Endurance trait, I can use my reaction to make one weapon attack. [+1 Strength or Constitution]",
+    "descriptionFull": "Your fury burns tirelessly. You gain the following benefits:\\n \\u2022 Increase your Strength or Constitution score by 1, to a maximum of 20.\\n \\u2022 When you hit with an attack made with a simple or martial weapon, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type. Once you use this ability, you can't use it again until you finish a short or long rest.\\n \\u2022 Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack.",
+    "prerequisite": "Being a Half-Orc",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Prodigy",
+    "description": "I gain one skill proficiency of my choice, one tool proficiency of my choice, fluency in one language of my choice, and +1 to one ability score of my choice. [+1 to one ability score]",
+    "descriptionFull": "You have a knack for learning new things. You gain the following benefits:\\n \\u2022 Increase one ability score of your choice by 1, to a maximum of 20.\\n \\u2022 You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.",
+    "prerequisite": "Being a Half-Elf or a Human",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Second Chance",
+    "description": "When a creature I can see hits me with an attack roll, I can use my reaction to force that creature to reroll. Once I use this ability, I can't do so again until I finish a short rest.\\n[+1 Dexterity, Constitution, or Charisma]",
+    "descriptionFull": "You have a knack for learning new things. You gain the following benefits:\\n \\u2022 Increase your Dexterity, Constitution, or Charisma score by 1, to a maximum of 20.\\n \\u2022 When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can't do so again until you finish a short or long rest.",
+    "prerequisite": "Being a Halfling",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Wood Elf Magic",
+    "description": "I learn a druid cantrip. In addition, I can cast Longstrider and Pass Without Trace, without expending a spell slot, but each only once per long rest. Wisdom is my spellcasting ability for these three spells.",
+    "descriptionFull": "You learn the magic of the primeval woods. You learn one druid cantrip of your choice. You also learn Longstrider and Pass Without Trace, each of which you can cast once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a long rest. Wisdom is your spellcasting ability for these spells.",
+    "prerequisite": "Being a Wood Elf",
+    "source": "Unearthed Arcana: Feats for Races"
+  },
+  {
+    "name": "Aberrant Dragonmark",
+    "description": "I learn a sorcerer cantrip and a 1st-level sorcerer spell, using Con as my spellcasting ability. I can cast the spell once per long rest without a spell slot. I can use a Hit Die when casting the spell, casting it as if with a level 2 spell slot and taking the HD as damage. [+1 Con]",
+    "descriptionFull": "You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it (see the table below for examples). You gain the following benefits:\\n \\u2022 Increase your Constitution score by 1, to a maximum of 20.\\n \\u2022 You learn a cantrip from the sorcerer spell list. In addition, choose a 1st-level spell from the sorcerer spell list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again. Constitution is your spellcasting ability for these spells.\\n \\u2022 You can increase the power of your aberrant spells at the risk of your own vitality. When you cast a spell with your aberrant mark, you can use one of your Hit Dice to increase the spell's level by 1. Immediately after you cast the spell, roll the Hit Die. You take damage equal to the number rolled.\\n\\n",
+    "prerequisite": "Not having a dragonmark",
+    "source": "WGtE"
+  },
+  {
+    "name": "Telepathic",
+    "description": "I gain proficiency with one skill chosen from Deception, Insight, Intimidation, or Persuasion. I can communicate telepathically with any creature I can see within 30 feet of me. If it understands at least one language, it can respond to me telepathically. [+1 Intelligence]",
+    "descriptionFull": "You awaken the ability to mentally connect with others. You gain the following benefits:\\n \\u2022 Increase your Intelligence score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency in one skill of your choice from the following list: Deception, Insight, Intimidation, or Persuasion.\\n \\u2022 You can communicate telepathically with any creature you can see within 30 feet of you. If it understands at least one language, it can respond to you telepathically.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats for Races and Worlds"
+  },
+  {
+    "name": "Crusher",
+    "description": "Once per turn, when I hit a creature no more than one size larger than me with an attack that deals bludgeoning damage, I can move it 5 ft to an unoccupied space. If I score a critical hit that deals bludgeoning damage, attacks against the creature hit gain advantage until the start of my next turn. [+1 ",
+    "descriptionFull": "You are practiced in the art of crushing your enemies, granting you the following benefits:\\n \\u2022 Increase your Strength or Dexterity by 1, to a maximum of 20.\\n \\u2022 Once per turn, when you hit a creature with an attack that deals bludgeoning damage, you can move it 5 feet to an unoccupied space, provided the target is no more than one size larger than you.\\n \\u2022 When you score a critical hit that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the end of your next turn.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats 2020"
+  },
+  {
+    "name": "Practiced Expert",
+    "description": "I gain proficiency in one skill or tool, and expertise in that same skill or tool, or another skill or tool I'm proficient with. [+1 to one ability score of my choice]",
+    "descriptionFull": "You have honed your proficiency with particular skills or tools, gaining the following benefits:\\n \\u2022 Increase one ability score of your choice by 1, to a maximum of 20.\\n \\u2022 You gain proficiency with one skill or tool of your choice.\\n \\u2022 Choose one of your skill or tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats 2020"
+  },
+  {
+    "name": "Shadow Touched",
+    "description": "I learn Darkness and one 1st level illusion or necromancy spell. I can cast each once per long rest at their lowest level without expending a spell slot, and can cast them if I have a spell slot to do so. My spellcasting ability is the ability I choose to increase when I gain this feat. [+1 Intelligence, Wisdom, or Charisma]",
+    "descriptionFull": "You learn how to bend shadows from your experience with the Shadowfell. You gain the following benefits:\\n \\u2022 Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\\n \\u2022 You learn the darkness spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats 2020"
+  },
+  {
+    "name": "Shield Training",
+    "description": "I gain proficiency with shields. I can don or doff a shield as the free object interaction on my turn. If I have the Spellcasting or Pact Magic feature, I can use my shield as a spellcasting focus. [+1 Strength, Dexterity, or Constitution]",
+    "descriptionFull": "You've trained in the effective use of shields. You gain the following benefits:\\n \\u2022 Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.\\n \\u2022 You gain proficiency with shields.\\n \\u2022 In combat, you can don or doff a shield as the free object interaction on your turn.\\n \\u2022 If you have the Spellcasting or Pact Magic feature, you can use a shield as a spellcasting focus.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats 2020"
+  },
+  {
+    "name": "Tandem Tactician",
+    "description": "I can use the Help action as a bonus action. When I use the Help action to aid an ally in attacking a creature, the range of the Help action increases with 10 ft. I can help two allies targeting the same creature within range when I use the Help action this way.",
+    "descriptionFull": "Your presence in a scrap tends to elevate your comrades. You gain the following benefits:\\n \\u2022 You can use the Help action as a bonus action.\\n \\u2022 When you use the Help action to aid an ally in attacking a creature, increase the range of the Help action by 10 feet. Additionally, you can help two allies targeting the same creature within range when you use the Help action this way.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats 2020"
+  },
+  {
+    "name": "Tracker",
+    "description": "I can cast Hunter's Mark once per long rest at its lowest level without expending a spell slot, and can cast it by expending a spell slot as normal. Wisdom is my spellcasting ability for this. I have advantage on Wisdom (Survival) checks to track creatures. [+1 Wisdom]",
+    "descriptionFull": "You have spent time hunting creatures and honed your skills, gaining the following benefits:\\n \\u2022 Increase your Wisdom score by 1, to a maximum of 20.\\n \\u2022 You learn the hunter's mark spell. You can cast it once without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have. Wisdom is your spellcasting ability for this spell.\\n \\u2022 You have advantage on Wisdom (Survival) checks to track creatures.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Feats 2020"
+  },
+  {
+    "name": "Gift of the Metallic Dragon",
+    "description": "I know Cure Wounds. I can cast it using spell slots and once per long rest without a spell slot. As a reaction when I or another I can see within 5 ft is hit by an attack, I can add a d4 to AC, potentially causing the attack to miss. I can do this my Prof Bonus per long rest.",
+    "descriptionFull": "You've manifested some of the power of metallic dragons, granting you the following benefits:",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Draconic Options"
+  },
+  {
+    "name": "Squire of Solamnia",
+    "description": "As a reaction once per long rest when I see another creature 30 ft make a save, I can give them advantage if they can hear and understand me. I gain proficiency with with medium armor and martial weapons. I have advantage on saves to avoid falling off a mount.",
+    "descriptionFull": "Your training in the ways of the Knights of Solamnia grants you these benefits:\\n",
+    "prerequisite": "Squireship in the Knights of Solamnia",
+    "source": "Unearthed Arcana: Heroes of Krynn"
+  },
+  {
+    "name": "Knight of the Crown",
+    "description": "When a creature within 30 ft makes an attack roll against another creature within 5 ft, I can use my reaction to grant advantage on the attack roll. I can do this a number of times equal to my Proficiency Bonus and regain all expended uses when I finish a long rest.",
+    "descriptionFull": "You are a Knight of Solamnia aligned with the Order of the Crown, a group that extols the virtues of cooperation, loyalty, and obedience. You excel in group combat and gain these benefits:\\n",
+    "prerequisite": "4th level, Squire of Solamnia feat",
+    "source": "Unearthed Arcana: Heroes of Krynn"
+  },
+  {
+    "name": "Knight of the Sword",
+    "description": "I gain proficiency in the chosen ability saving throw. After I or a creature I can see within 30 feet fails an Int, Wis, or Cha save, I can expend a HD. I roll that die and increase the save by that much. Once I change a fail into a success, I can't do so again until a long rest.",
+    "descriptionFull": "You are a Knight of Solamnia aligned with the Order of the Sword, a group devoted to heroism and courage. Bravery steels your spirit, granting you these benefits:\\n",
+    "prerequisite": "4th level, Squire of Solamnia feat",
+    "source": "Unearthed Arcana: Heroes of Krynn"
+  },
+  {
+    "name": "Knight of the Rose",
+    "description": "When I roll initiative I can choose up to 3 other creatures I can see within 30 ft. They gain temp HP equal to a roll of my HD + my proficiency bonus + the modifier of the score increased by this feat. I can do this a number of times equal to my Proficiency Bonus and regain all expended uses when I finish a long rest.",
+    "descriptionFull": "You are a Knight of Solamnia aligned with the Order of the Rose, a group known for leadership, justice, and wisdom. Your resolve grants you these benefits:\\n",
+    "prerequisite": "4th level, Squire of Solamnia feat",
+    "source": "Unearthed Arcana: Heroes of Krynn"
+  },
+  {
+    "name": "Knight of the Crown",
+    "description": "I learn one extra Knightly Maneuver: Distracting Strike or Goading Attack. I can change which one of these I know after each long rest. I gain two extra Knightly Superiority Dice and the dice become d8s. [+1 Strength or Dexterity]",
+    "descriptionFull": "You are a Knight of Solamnia aligned with the Order of the Crown, a group that extols the virtues of cooperation, loyalty, and obedience. You excel in group combat and gain these benefits:",
+    "prerequisite": "4th level, Squire of Solamnia feat",
+    "source": "Unearthed Arcana: Heroes of Krynn Revisited"
+  },
+  {
+    "name": "Knight of the Sword",
+    "description": "I learn one extra Knightly Maneuver: Maneuvering Attack or Menacing Attack. I can change which one of these I know after each long rest. I gain two extra Knightly Superiority Dice and the dice become d8s. [+1 Intelligence, Wisdom, or Charisma]",
+    "descriptionFull": "You are a Knight of Solamnia aligned with the Order of the Sword, a group devoted to heroism and courage. Bravery steels your spirit, granting you these benefits:",
+    "prerequisite": "4th level, Squire of Solamnia feat",
+    "source": "Unearthed Arcana: Heroes of Krynn Revisited"
+  },
+  {
+    "name": "Knight of the Rose",
+    "description": "I learn one extra Knightly Maneuver: Commander's Strike or Rally. I can change which one of these I know after each long rest. I gain two extra Knightly Superiority Dice and the dice become d8s. [+1 Constitution or Charisma]",
+    "descriptionFull": "You are a Knight of Solamnia aligned with the Order of the Rose, a group known for leadership, justice, and wisdom. Your resolve grants you these benefits:",
+    "prerequisite": "4th level, Squire of Solamnia feat",
+    "source": "Unearthed Arcana: Heroes of Krynn Revisited"
+  },
+  {
+    "name": "Outsized Might",
+    "description": "I gain proficiency in Athletics or Acrobatics. I count as one size larger when determining my carrying capacity and the amount I can push, drag, or lift. I have advantage on saving throws against being moved or knocked prone.",
+    "descriptionFull": "You have absorbed primeval magic that allows you, despite your relatively small stature, to embody the might of titanic creatures. This grants you the following benefits:",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Giant Options"
+  },
+  {
+    "name": "Ember of the Fire Giant",
+    "description": "I gain resistance to fire damage. When I take the Attack action on my turn I can use an attack to instead make each creature I choose within 15 ft roll a Dex save DC 8 + Prof + Con mod. On a fail they take 2d6 + Prof Fire dmg, blinded until the start of my next turn. Success halves and no other effect. Prof Uses / LR.",
+    "descriptionFull": "You've manifested the fiery combat emblematic of fire giants, granting you the following benefits:",
+    "prerequisite": "8th level",
+    "source": "Unearthed Arcana: Giant Options"
+  },
+  {
+    "name": "Fury of the Frost Giant",
+    "description": "I gain resistance to cold damage. When I am hit with an attack roll I can use my reaction to make them roll a Wis save DC 8 + Prof + Con mod. On a failure they are frightened until the start of their next turn. Prof Uses / LR.",
+    "descriptionFull": "You've manifested the icy might emblematic of frost giants, granting you the following benefits:",
+    "prerequisite": "4th level",
+    "source": "Unearthed Arcana: Giant Options"
+  },
+  {
+    "name": "Guile of the Cloud Giant",
+    "description": "I gain proficiency and expertise in Deception or Persuasion. Once per long rest I can cast Blur without using a spell slot, material components, or concentration. I can also cast it normally with spell slots.",
+    "descriptionFull": "You've manifested the airy speech and magic emblematic of cloud giants, granting you the following benefits:",
+    "prerequisite": "8th level",
+    "source": "Unearthed Arcana: Giant Options"
+  },
+  {
+    "name": "Keenness of the Stone Giant",
+    "description": "I learn detect thoughts and a 1st level Abjur or Div spell. I can cast these without a spell slot once per long rest, or as normal. I gain 60 ft of Darkvision or if I already have darkvision I get an extra 30 feet of Darkvision.",
+    "descriptionFull": "You've manifested the protection and spellcasting emblematic of stone giants, granting you the following benefits:",
+    "prerequisite": "4th level",
+    "source": "Unearthed Arcana: Giant Options"
+  },
+  {
+    "name": "Vigor of the Hill Giant",
+    "description": "When I would be moved or knocked prone I can use my reaction to not. When I would restore hit points from a spell I can regain an additional Con mod hit points, I can regain hit points this way Prof Uses / LR.",
+    "descriptionFull": "You've manifested the resilience emblematic of hill giants, granting you the following benefits:",
+    "prerequisite": "4th level",
+    "source": "Unearthed Arcana: Giant Options"
+  },
+  {
+    "name": "Rune Carver Apprentice",
+    "description": "At the end of a long rest, I can mark a nonmagical object I can touch with a rune. I learn a 1st-level spell until I finish a long rest when the rune fades. While wearing or carrying the object I can cast the spell once without using a spell slot or material components, or as normal.",
+    "descriptionFull": "You've begun studying the art of runecraft, which allows you to temporarily mark your items and imbue them with magic.",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Giant Options"
+  },
+  {
+    "name": "Rune Carver Adept",
+    "description": "At the end of a long rest, when using the Rune Carver apprentice feat, I can now inscribe a number of objects up to my Proficiency Bonus. Each object can only have one rune, and each rune must be different.",
+    "descriptionFull": "Your skill with the art of runecraft has increased.\\n   Whenever you finish a long rest, you can now mark a number of objects equal to your proficiency bonus with a rune from the Rune Carver Apprentice feat. An object can have only one rune at a time, and you must inscribe a different rune on each object.",
+    "prerequisite": "4th level, Rune Carver Apprentice feat",
+    "source": "Unearthed Arcana: Giant Options"
+  },
+  {
+    "name": "Cartomancer",
+    "description": "",
+    "descriptionFull": "You have learned to channel your magic through a deck of playing cards, granting you these benefits:",
+    "prerequisite": "4th-level; Sorcerer, Warlock, or Wizard Class",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Agent of Order",
+    "description": "Once per turn when I damage a creature I see within 60 ft, I can deal +1d8 force damage to it, and it must succeed on a Wis save (DC 8 + Prof Bonus + the modifier of the ability score increased by this feat) or be restrained until my next turn starts. I can do this a number of times equal to my Prof Bonus per long rest.",
+    "descriptionFull": "You can channel cosmic forces of order that lock the multiverse into patterns. Your actions are your own to choose, but these forces grant you the following benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes (Lawful Outer Plane) feat",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Baleful Scion",
+    "description": "Once per turn, when I hit a creature with a melee weapon attack, I can also deal 1d6 + my Proficiency Bonus necrotic damage to it. I then regain a number of hit points equal to this necrotic damage dealt. I can do this a number of times equal to my Proficiency Bonus per long rest. [+1 to any one ability score]",
+    "descriptionFull": "You can channel cosmic forces of evil that cause pain but invigorate your being. You can choose your own actions despite this malign connection. You gain the following benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes (Evil Outer Plane) feat",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Cohort of Chaos",
+    "description": "When I roll a 1 or a 20 on an attack roll or save, a the magic of chaos flares up and I roll on the Chaotic Flare table to determine what happens (see notes for table). As a bonus action, my Proficiency Bonus per long rest, I can force a flare to happen. [+1 to any one ability score]",
+    "descriptionFull": "You can channel the cosmic forces of chaos that drive the multiverse toward both freedom and disarray. Your actions are still yours to choose, but you gain these benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes (Chaotic Outer Plane) feat",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Planar Wanderer",
+    "description": "After each long rest, I can gain acid, cold, or fire resistance, that lasts until my next long rest ends. I know the direction to the last portal I used while on the same plane as it. As an action, I can try to open or close a portal (portal cracker). As an action once per long rest, I can detect portals (portal sense). See notes.",
+    "descriptionFull": "You can draw on the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms. You gain these benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes feat",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Righteous Heritor",
+    "description": "As a reaction when I or a creature I can see within 30 ft takes damage, I can reduce the damage taken by 1d10 + my Proficiency Bonus. I can do this a number of times equal to my Proficiency Bonus per long rest. [+1 to any one ability score]",
+    "descriptionFull": "You can channel the cosmic forces of good that foster serenity and fellowship. You are still free to choose your own actions, but gain these benefits:",
+    "prerequisite": "4th-level, Scion of the Outer Planes (Good Outer Plane) feat",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Strike of the Giants",
+    "description": "As a bonus action, I can call on the power of my giant magic to imbue my attacks with additional power. The next time I hit a target with a melee or thrown weapon attack within the next minute, the attack has an additional effect depending on the origin of my giant magic (hill, stone, frost, fire, cloud or storm).",
+    "descriptionFull": "You have absorbed primeval magic that gives you an echo of the might of giants. Choose one of the kinds of giants listed below. As a bonus action, you can call on the power of your giant magic to imbue your attacks with additional power. The next time you hit a target with a melee or thrown weapon attack within the next minute, the attack has an additional effect depending on the origin of your giant magic:",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Fury of the Frost Giant",
+    "description": "I have cold resistance. As a reaction my Prof Bonus per long rest, when a creature I can see within 30 ft hits and deals damage with an attack, I can have it make a Con save (DC 8 + Prof B. + Str/Con/Wis mod) or take 1d8 + Prof Bonus  cold damage and have its speed reduced by half until my next turn ends.",
+    "descriptionFull": "You've manifested the icy might emblematic of frost giants, granting you the following benefits:",
+    "prerequisite": "4th-level, Strike of the Giants (Frost Giant) feat",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Guile of the Cloud Giant",
+    "description": "As a reaction when a creature I can see hits me with an attack roll, I can give myself resistance to that attack's damage. I then teleport to an unoccupied space that I can see within 30 ft. I can do this a number of times equal to half my Proficiency Bonus (rounded up) per long rest. [+1 Dex, Con, or Cha]",
+    "descriptionFull": "You've manifested the airy speech and magic emblematic of cloud giants, granting you the following benefits:",
+    "prerequisite": "4th-level, Strike of the Giants (Cloud Giant) feat",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Soul of the Storm Giant",
+    "description": "As an action my Prof Bonus per long rest, I can give myself a 10-ft radius magical aura until my next turn starts. This imposes disadv. on attacks against me and when a creature starts its turn within, I can have it make a Str save (DC 8 + Prof Bonus + Int/Wis/Cha mod) or halve its speed until my next turn starts.",
+    "descriptionFull": "You've manifested divination abilities and tempest magic emblematic of storm giants, granting you the following benefits:",
+    "prerequisite": "4th-level, Strike of the Giants (Storm Giant) feat",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Vigor of the Hill Giant",
+    "description": "When I'm subjected to an effect that would move me at least 5 ft or knock me prone, I can use my reaction to steady myself and stop this from happening. Whenever I eat food as part of a short rest and spend one or more HD to regain HP, I regain additional HP equal to my Con mod + my Proficiency Bonus. [+1 Con]",
+    "descriptionFull": "You've manifested the resilience emblematic of hill giants, granting you the following benefits:",
+    "prerequisite": "4th-level, Strike of the Giants (Hill Giant) feat",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Scion of Elemental Air",
+    "description": "I know the Minor Illusion cantrip (choice of Int, Wis, or Cha spellcasting ability). As a bonus action, I can gain a flying speed equal to my walking speed until my turn ends, but fall after this movement if I'm airborne and not held aloft by other means. I can do this bonus action my Proficiency Bonus per long rest.",
+    "descriptionFull": "You've been exposed to the primordial magic of the Elemental Plane of Air, granting you the following benefits:",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  },
+  {
+    "name": "Scion of Elemental Earth",
+    "description": "I know the Druidcraft cantrip (choice of Int, Wis, or Cha spellcasting ability). As a bonus action, I can conjure a bulwark of earth that provides half cover to me or a creature of my choice within 30 ft of myself, until the start of my next turn. I can create this bulwark my Proficiency Bonus per long rest.",
+    "descriptionFull": "You've been exposed to the primordial magic of the Elemental Plane of Earth, granting you the following benefits:",
+    "prerequisite": "",
+    "source": "Unearthed Arcana: Wonders of the Multiverse"
+  }
+]
