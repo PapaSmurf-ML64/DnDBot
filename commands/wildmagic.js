@@ -1,8 +1,15 @@
-const { EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { google } = require('googleapis');
 
 module.exports = {
-    name: 'wildmagic',
+    data: new SlashCommandBuilder()
+        .setName('wildmagic')
+        .setDescription('Roll on the Wild Magic Surge table.')
+        .addIntegerOption(option =>
+            option.setName('number')
+                .setDescription('The number to roll for Wild Magic Surge')
+                .setRequired(true)
+        ),
     description: 'Roll on the Wild Magic Surge table.',
     async execute(interaction) {
         try {
