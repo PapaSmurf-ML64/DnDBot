@@ -40,3 +40,4 @@ coverage/
 # Ignore Python cache (if scripts are ever added)
 __pycache__/
 *.pyc
+/.vs
