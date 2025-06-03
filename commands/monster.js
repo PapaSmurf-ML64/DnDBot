@@ -192,5 +192,6 @@ module.exports = {
         } catch (err) {
             try { await interaction.editReply({ content: `Error fetching monster information.`, flags: 64 }); } catch {}
         }
-    }
+    },
+    generateMonsterImage
 };

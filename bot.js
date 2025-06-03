@@ -426,6 +426,42 @@ client.on('interactionCreate', async interaction => {
         return;
     }
 
+    // --- MONSTER SELECT MENU HANDLER (monsters.json only) ---
+    if (interaction.isStringSelectMenu() && interaction.customId === 'monster_select') {
+        try {
+            const selectedName = interaction.values[0];
+            const filePath = path.join(__dirname, 'data/monsters.json');
+            const monsters = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+            const monster = monsters.find(m => typeof m.name === 'string' && m.name === selectedName);
+            if (!monster) {
+                await interaction.update({ content: 'Monster not found.', components: [], flags: 64 });
+                return;
+            }
+            // Generate or reuse image
+            const imagesDir = path.join(__dirname, 'data/images');
+            if (!fs.existsSync(imagesDir)) fs.mkdirSync(imagesDir);
+            const imgName = selectedName.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.png';
+            const imgPath = path.join(imagesDir, imgName);
+            // Generate image if it doesn't exist
+            const monsterModule = require('./commands/monster');
+            if (!fs.existsSync(imgPath)) {
+                await monsterModule.generateMonsterImage(monster, imgPath);
+            }
+            const { AttachmentBuilder, EmbedBuilder } = require('discord.js');
+            const attachment = new AttachmentBuilder(imgPath);
+            let embed = new EmbedBuilder()
+                .setTitle(monster.name)
+                .setColor(0xA52A2A)
+                .setImage('attachment://' + imgName)
+                .addFields({ name: 'Stat Block', value: 'See image below.', inline: false });
+            await interaction.update({ content: null, components: [], embeds: [embed], files: [imgPath] });
+        } catch (err) {
+            console.error('MONSTER SELECT ERROR:', err);
+            try { await interaction.update({ content: `Error fetching monster information.`, components: [], flags: 64 }); } catch {}
+        }
+        return;
+    }
+
     // --- COMMAND HANDLER (from commands folder) ---
     if (interaction.isChatInputCommand()) {
         const command = commandsMap.get(interaction.commandName);
