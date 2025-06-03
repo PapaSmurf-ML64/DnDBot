@@ -10,8 +10,32 @@ const client = new Client({ intents: [
     GatewayIntentBits.MessageContent
 ] });
 
-client.once('ready', () => {
+client.once('ready', async () => {
     console.log(`Logged in as ${client.user.tag}!`);
+    // Log invite link
+    if (client.user && process.env.CLIENT_ID) {
+        const inviteUrl = `https://discord.com/api/oauth2/authorize?client_id=${process.env.CLIENT_ID}&permissions=277025508352&scope=bot%20applications.commands`;
+        console.log('Invite the bot to your server with this link:');
+        console.log(inviteUrl);
+    }
+    // Set username if provided
+    if (process.env.BOT_USERNAME && client.user.username !== process.env.BOT_USERNAME) {
+        try {
+            await client.user.setUsername(process.env.BOT_USERNAME);
+            console.log(`Bot username set to: ${process.env.BOT_USERNAME}`);
+        } catch (err) {
+            console.error('Failed to set bot username:', err);
+        }
+    }
+    // Set avatar if provided
+    if (process.env.BOT_AVATAR) {
+        try {
+            await client.user.setAvatar(process.env.BOT_AVATAR);
+            console.log('Bot avatar updated.');
+        } catch (err) {
+            console.error('Failed to set bot avatar:', err);
+        }
+    }
 });
 
 // Dynamically load all commands from the commands folder for registration
