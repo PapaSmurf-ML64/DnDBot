@@ -70,5 +70,33 @@
   {
     "name": "Exhaustion",
     "description": "Exhaustion is measured in six levels. Each level adds cumulative effects, and reaching the sixth level results in death."
+  },
+  {
+    "name": "size",
+    "description": "Tiny, Small, Medium, Large, Huge, Gargantuan"
+  },
+  {
+    "name": "Tiny",
+    "description": "2.5 x 2.5 feet(4/sq)"
+  },
+  {
+    "name": "Small",
+    "description": "5 x 5 feet (1sq)"
+  },
+  {
+    "name": "Medium",
+    "description": "5 x 5 feet (lsq)"
+  },
+  {
+    "name": "Large",
+    "description": "10 x 10 feet (2sq)"
+  },
+  {
+    "name": "Huge",
+    "description": "15 x 15 feet (3x3sq)"
+  },
+  {
+    "name": "Gargantuan",
+    "description": "20 x 20 feet (4x4 sq) or larger"
   }
 ]
