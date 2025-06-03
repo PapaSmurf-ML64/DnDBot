@@ -129,13 +129,29 @@ async function generateMonsterImage(monster, outPath) {
         // Standard serif for trait/action names
         ctx.font = 'bold 16px serif';
         ctx.fillStyle = lightText;
-        ctx.fillText(name, 30, y);
-        y += 18;
+        // Wrap text for long names
+        const maxWidth = width - 60;
+        let nameWords = name.split(' ');
+        let nameLine = '';
+        for (let i = 0; i < nameWords.length; i++) {
+            const testLine = nameLine + nameWords[i] + ' ';
+            const metrics = ctx.measureText(testLine);
+            if (metrics.width > maxWidth && nameLine.length > 0) {
+                ctx.fillText(nameLine.trim(), 30, y);
+                y += 18;
+                nameLine = nameWords[i] + ' ';
+            } else {
+                nameLine = testLine;
+            }
+        }
+        if (nameLine.length > 0) {
+            ctx.fillText(nameLine.trim(), 30, y);
+            y += 18;
+        }
         if (desc) {
             ctx.font = '16px serif';
             ctx.fillStyle = lightText;
             // Wrap text for long descriptions
-            const maxWidth = width - 60;
             const words = desc.split(' ');
             let line = '';
             for (let i = 0; i < words.length; i++) {
