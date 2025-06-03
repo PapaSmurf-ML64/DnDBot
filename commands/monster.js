@@ -12,9 +12,51 @@ function sanitizeFilename(name) {
 }
 
 async function generateMonsterImage(monster, outPath) {
-    // Canvas size (adjust as needed)
+    // --- DYNAMIC HEIGHT CALCULATION (IMPROVED) ---
+    // Use canvas to measure actual text wrapping for more accurate height
     const width = 530;
-    const height = 920;
+    // Temporary canvas for measurement
+    const tempCanvas = createCanvas(width, 1000);
+    const tempCtx = tempCanvas.getContext('2d');
+    tempCtx.font = 'bold 16px serif';
+    const baseHeight = 250; // header, stat block, ability bar
+    function measureBlock(name, desc) {
+        let lineHeight = 18;
+        let total = lineHeight; // name
+        if (desc) {
+            tempCtx.font = '16px serif';
+            const maxWidth = width - 60;
+            const words = desc.split(' ');
+            let line = '';
+            for (let i = 0; i < words.length; i++) {
+                const testLine = line + words[i] + ' ';
+                const metrics = tempCtx.measureText(testLine);
+                if (metrics.width > maxWidth && line.length > 0) {
+                    total += lineHeight;
+                    line = words[i] + ' ';
+                } else {
+                    line = testLine;
+                }
+            }
+            if (line.length > 0) total += lineHeight;
+        }
+        return total;
+    }
+    function measureSection(arr) {
+        if (!Array.isArray(arr) || arr.length === 0) return 0;
+        let h = 30; // section header
+        for (const entry of arr) {
+            const [name, ...descParts] = entry.split('.');
+            h += measureBlock((name || '').trim() + (descParts.length ? '.' : ''), descParts.join('.').trim());
+        }
+        h += 6; // section spacing
+        return h;
+    }
+    let contentHeight = 0;
+    contentHeight += measureSection(monster.traits);
+    contentHeight += measureSection(monster.actions);
+    // Add more sections if needed (e.g., legendary actions)
+    const height = baseHeight + contentHeight + 40;
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
 
