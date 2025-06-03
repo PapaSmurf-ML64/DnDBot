@@ -2,6 +2,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { google } = require('googleapis');
 
 module.exports = {
+    name: 'wildmagic',
     data: new SlashCommandBuilder()
         .setName('wildmagic')
         .setDescription('Roll on the Wild Magic Surge table.')
@@ -28,13 +29,16 @@ module.exports = {
 
             // If your sheet is public, you can use an API key:
             const apiKey = process.env.GOOGLE_SHEETS_API_KEY; // Set this in your .env
-
-            // Fetch the sheet data
-            const res = await sheets.spreadsheets.values.get({
-                spreadsheetId,
-                range,
-                key: apiKey
-            });
+            let res;
+            try {
+                res = await Promise.race([
+                    sheets.spreadsheets.values.get({ spreadsheetId, range, key: apiKey }),
+                    new Promise((_, reject) => setTimeout(() => reject(new Error('Google Sheets API timeout')), 8000))
+                ]);
+            } catch (apiErr) {
+                await interaction.editReply({ content: `Error fetching data from Google Sheets: ${apiErr.message}`, flags: 64 });
+                return;
+            }
 
             const rows = res.data.values;
             if (!rows || rows.length === 0) {

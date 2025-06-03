@@ -28,14 +28,14 @@ client.once('ready', async () => {
         }
     }
     // Set avatar if provided
-    if (process.env.BOT_AVATAR) {
-        try {
-            await client.user.setAvatar(process.env.BOT_AVATAR);
-            console.log('Bot avatar updated.');
-        } catch (err) {
-            console.error('Failed to set bot avatar:', err);
-        }
-    }
+    // if (process.env.BOT_AVATAR) {
+    //     try {
+    //         await client.user.setAvatar(process.env.BOT_AVATAR);
+    //         console.log('Bot avatar updated.');
+    //     } catch (err) {
+    //         console.error('Failed to set bot avatar:', err);
+    //     }
+    // }
 });
 
 // Dynamically load all commands from the commands folder for registration
@@ -56,20 +56,20 @@ for (const file of registrationFiles) {
 }
 
 // Register commands with Discord, hard reload for specific server.
-// const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
-// const GUILD_ID = process.env.GUILD_ID;
-// (async () => {
-//     try {
-//         console.log('Started refreshing application (/) commands.');
-//         await rest.put(
-//             Routes.applicationGuildCommands(process.env.CLIENT_ID, GUILD_ID),
-//             { body: allCommands },
-//         );
-//         console.log('Successfully reloaded application (/) commands.');
-//     } catch (error) {
-//         console.error(error);
-//     }
-// })();
+const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
+const GUILD_ID = process.env.GUILD_ID;
+(async () => {
+    try {
+        console.log('Started refreshing application (/) commands.');
+        await rest.put(
+            Routes.applicationGuildCommands(process.env.CLIENT_ID, GUILD_ID),
+            { body: allCommands },
+        );
+        console.log('Successfully reloaded application (/) commands.');
+    } catch (error) {
+        console.error(error);
+    }
+})();
 
 // SINGLE interactionCreate HANDLER
 client.on('interactionCreate', async interaction => {
@@ -491,11 +491,11 @@ client.on('interactionCreate', async interaction => {
 
     // --- COMMAND HANDLER (from commands folder) ---
     if (interaction.isChatInputCommand()) {
-        const command = commandsMap.get(interaction.commandName);
-        if (command) {
-            await command.execute(interaction);
-        }
+    const command = commandsMap.get(interaction.commandName);
+    if (command) {
+        await command.execute(interaction);
     }
+}
 });
 
 const commandsMap = new Map();
